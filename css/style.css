@@ -1,4 +1,8 @@
+
 a {text-decoration: none;}
+.head{
+    background: #000;
+}
 .li1{
     text-decoration: none;
     font-family: "Open Sans";
@@ -24,6 +28,10 @@ a {text-decoration: none;}
     font-style: normal;
     font-size: 14px;
 }
+.banner{
+    background: #aaa;
+    margin-top: 0px;
+}
 .li5{
     font-family: "Open Sans";
     font-weight: 600;
@@ -46,6 +54,14 @@ a {text-decoration: none;}
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    background: none;
+    width: 270px;
+    height: 60px;
+}
+.media{
+    background: #F8EFEF;
 }
 .text3{
     font-family: "Open Sans";
@@ -78,10 +94,15 @@ a {text-decoration: none;}
     font-size: 18px;
 }
 .butt2{
+    color: #fff;
     font-family: "Open Sans";
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
+    flex-basis: 270px;
+    height: 60px;
+    background: 
+    #EC7979;
 }
 .text8{
     font-family: "Raleway";
@@ -94,6 +115,10 @@ a {text-decoration: none;}
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
+}
+.tabs{
+    background: 
+    #F5F5F5;
 }
 .text10{
     font-family: "Open Sans";
@@ -275,6 +300,9 @@ a {text-decoration: none;}
     font-style: normal;
     font-size: 18px;
 }
+.stil{
+    background: rgba(0, 0, 0, 0.5);
+}
 .text34{
     font-family: "Raleway";
     font-weight: 400;
@@ -317,6 +345,9 @@ a {text-decoration: none;}
     font-style: normal;
     font-size: 18px;
 }
+.foot{
+    background: #000;
+}
 .name1{
     font-family: "Open Sans";
     font-weight: 700;
@@ -358,6 +389,9 @@ a {text-decoration: none;}
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
+    width: 370px;
+    height: 60px;
+    border: 2px solid rgb(112, 7, 7);
 }
 .text43{
     font-family: "Raleway";
