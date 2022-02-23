@@ -6,70 +6,93 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="head">
-        <nav>
-            <a href="">
-                <img src="images/logo.svg" alt="Axit">
+    <header class="header">
+        <nav class="header__nav">
+            <a href="" class="header__logo">
+                <img src="images/logo.svg" alt="Axit" class="header__logo__img">
             </a>
-            <ul>
-                <li class="li1"><a href="" style="color: #fff;">features</a></li>
-                <li class="li2"><a href="" style="color: #fff;">About</a></li>
-                <li class="li3"><a href="" style="color: #fff;">Pricing</a></li>
-                <li class="li4"><a href="" style="color: #fff;">Reviews</a></li>
-                <li class="li5"><a href="" style="color: #fff;">Contact</a></li>
+            <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link">features</a></li>
+                <li class="menu__item"><a href="" class="menu__link">About</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Pricing</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Reviews</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="body__main">
 
         <section class="banner">
-            <img src="images/logo.svg" alt="Axit">
-            <h1 class="text1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-            <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <a class="butt1" href="" style="color: #fff;">Download</a>
+            <img class="banner__logo" src="images/logo.svg" alt="Axit">
+            <h1 class="banner__title">MODERN AXURE TEMPLATEFOR BEAUTIFULPROTOTYPES</h1>
+            <hr class="banner__separator">
+            <p class="banner__ps">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <a class="btn1" href="">Download</a>
+            <div class="contaner">
+                <form class="banner__form">
+                    <div class="form-inner">
+                    <h2 class="title2">Try Your <em class="">Free</em> Trial Today</h2>
+                    <div class="form__row">
+                    <input class="form-input" type="text" placeholder="Name">
+                    </div>
+                    <div class="form__row">
+                    <input class="form-input"  type="email" placeholder="Email">
+                    </div>
+                    <div class="form__row">
+                    <input class="form-input"  type="password" placeholder="Password" disabled>
+                    </div>
+                    </div>
+                    <button class="button form__button">Get Started</button>
+                </form>
+            </div>
         </section>
 
         <section class="media">
-            <h2 class="text3">
+            <h2 class="media__title">
                 Social Media
             </h2>
             <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Aenean euismod bibendum laoreet.
             </p>
-            <img src="images/Vector.svg" alt="facebook">
-            <img src="images/Vector(1).svg" alt="twitter">
-            <img src="images/Vector(2).svg" alt="in">
-            <img src="images/Vector(3).svg" alt="P">
-            <img src="images/Vector(4).svg" alt="insta">
-            <img src="images/Vector(5).svg" alt="wifi">
-            <img src="images/cat.svg" alt="Git">
+            <ul class="media__list">
+            <li><img src="images/Vector.svg" alt="facebook"></li>
+            <li><img src="images/Vector(1).svg" alt="twitter"></li>
+            <li><img src="images/Vector(2).svg" alt="in"></li>
+            <li><img src="images/Vector(3).svg" alt="P"></li>
+            <li><img src="images/Vector(4).svg" alt="insta"></li>
+            <li><img src="images/Vector(5).svg" alt="wifi"></li>
+            <li><img src="images/cat.svg" alt="Git"></li>
+        </ul>
         </section>
-        <section>
-            <h3 class="text5">
+        <section class="tabs">
+            <h3 class="tabs__title">
                 Tabs with soft transitioning effect.
             </h3>
-            <p class="text6">
+            <div class="contaner2">
+            <p class="tabs__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
 justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
 penatibus et magnis dis parturient montes.</p>
 
-<p class=text7> ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+<p class="tabs__texto"> ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
 bibendum laoreet.
             </p>
+            </div>
             <img src="images/Rectangle111.svg" alt="statue of liberty">
-            <a class="butt2" href="">Download</a>
+            <a class="btn2" href="">Download</a>
         </section>
-        <section>
+        <section class="about">
             <h4 class="text8">WHY THIS IS AWESOME
             </h4>
             <p class="text9">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <ul>
+            <ul class="about__us">
                 <li>
                     <img src="images/lamp.svg" alt="lamp">
                     <h5 class="text10">Thoughtful Design</h5>
@@ -93,7 +116,7 @@ bibendum laoreet.
                 </li>
             </ul>
         </section>
-        <section class="tabs">
+        <section class="price">
             <h3 class="text16">
                 pricing options
             </h3>
@@ -140,14 +163,14 @@ bibendum laoreet.
                 </div>
             </div>
         </section>
-        <section>
+        <section class="customers">
             <h4 class="text36">
                 what our customers are saying
             </h4>
             <h5 class="text37">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h5>
-            <ul>
+            <ul class="customers__saying">
                 <li>
                     <blockquote class="text38" style="background-color:grey">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
@@ -187,19 +210,21 @@ bibendum laoreet.
             <article class="stil">
                 <h1 class="text41" style="color: #fff;">STYLISH AXURE DESIGN</h1>
                 <p class="text42" style="color: #fff;">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                <a class="butt3" href="" style="color: #fff;">Download</a>
+                <a class="btn3" href="" style="color: #fff;">Download</a>
             </article>
         </section>
     </main>
-    <footer class="foot">
-        <img src="images/Vector.svg" alt="facebook">
-        <img src="images/Vector(1).svg" alt="twitter">
-        <img src="images/Vector(2).svg" alt="in">
-        <img src="images/Vector(3).svg" alt="P">
-        <img src="images/Vector(4).svg" alt="insta">
-        <img src="images/Vector(5).svg" alt="wifi">
-        <img src="images/cat.svg" alt="Git">
-        <span class="text43">© 2015 Axure Themes</span>
+    <footer class="footer">
+        <ul class="footer__icons">
+        <li><img src="images/Vector.svg" alt="facebook"></li>
+        <li><img src="images/Vector(1).svg" alt="twitter"></li>
+        <li><img src="images/Vector(2).svg" alt="in"></li>
+        <li><img src="images/Vector(3).svg" alt="P"></li>
+        <li><img src="images/Vector(4).svg" alt="insta"></li>
+        <li><img src="images/Vector(5).svg" alt="wifi"></li>
+        <li><img src="images/cat.svg" alt="Git"></li>
+        <li><span class="text43">© 2015 Axure Themes</span></li>
+        </ul>
     </footer>
 </body>
 </html>
