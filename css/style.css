@@ -33,9 +33,13 @@ a {text-decoration: none;}
     font-size: 48px;
 }
 .banner{
-    background: darkgray;
-    Width: 1510px;
-    height: 1026px;
+    background-image: url(images/bgbanner.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.banner_logo{
+    margin-left: 170px;
+    
 }
 
 .contaner{
@@ -180,7 +184,42 @@ textarea.form-input{
 .price{
     background: 
     #F5F5F5;
+    padding: 100px;
 }
+.price-card{
+    padding: 2px;
+}
+
+.price-card__title,
+.price-card__price,
+.price-card__text{
+    height: 50px;
+    background-color: #333;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.price-card li{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.price-card li + li {
+    margin-top: 2px;
+
+}
+.price-card--active{
+    background-color: #f5f5f5;
+    transform: translateY(-20px);
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+}
+
 .contaner2{
     width: 570px;
     height: 210px;
